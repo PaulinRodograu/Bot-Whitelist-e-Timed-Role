@@ -45,21 +45,27 @@ Um bot Discord avançado que automatiza o processo de whitelist/inscrição em s
 
 **Métricas:**
 
-- 📊 Até **50 formulários simultâneos** em processamento
-- 📊 **30 minutos** de timeout customizável
-- 📊 Limpeza automática a cada **24 horas**
-- 📊 Suporte a **até 5 imagens** por formulário
-- 📊 **12 comandos slash** implementados
-- 📊 **15 melhorias avançadas** documentadas no arquivo de ideias
+-  Até **50 formulários simultâneos** em processamento
+-  **30 minutos** de timeout customizável
+-  Limpeza automática a cada **24 horas**
+-  Suporte a **até 5 imagens** por formulário
+-  **12 comandos slash** implementados
+-  **15 melhorias avançadas** documentadas no arquivo de ideias
 
 **Aprendizados técnicos:**
 
 1. **Padrão de Views Persistentes**: Implementação de botões que funcionam mesmo após restart do bot
+
 2. **Sistema de Timeouts Inteligente**: Avisos antes da expiração com recovery automático
+
 3. **Gestão de Estado com JSON**: Serialização eficiente sem dependência de BD externo
+
 4. **Concorrência em Async**: Múltiplas sessões ativas com proper cleanup de tasks
+
 5. **Validação em Camadas**: Validação de tipo → tamanho → conteúdo para segurança
+
 6. **Autorização Granular**: Sistema de permissões baseado em cargos do Discord
+
 7. **File Handling**: Upload/validação de arquivos em DM com limites configuráveis
 
 **Arquitetura:**
